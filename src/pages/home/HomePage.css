@@ -1,0 +1,24 @@
+h1 {
+  font-family: "Press Start 2P";
+  font: bold;
+  font-size: 1.5rem;
+}
+
+.title-container {
+  margin: auto;
+  margin-top: 5rem;
+  padding: 1.25rem;
+  background-color: #00adb5;
+  width: max-content;
+  box-shadow: 5px 5px 10px 10px;
+  animation: glow 1.2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 5px 5px 10px 5px black;
+  }
+  to {
+    box-shadow: 0 0 10px 5px #eeeeee;
+  }
+}

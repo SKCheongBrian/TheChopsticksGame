@@ -1,0 +1,16 @@
+.box {
+  width: max-content;
+  margin: auto;
+  margin-bottom: 1.25rem;
+  margin-top: 2.5rem;
+  border-style: dashed;
+  padding: 1.25rem;
+  border-width: 2px;
+  border-color: #eeeeee;
+}
+
+.list {
+  font-family: "VT323";
+  font-size: x-large;
+  color: #eeeeee;
+}
