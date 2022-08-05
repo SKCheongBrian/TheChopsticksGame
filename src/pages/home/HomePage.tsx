@@ -1,5 +1,6 @@
 import React from "react";
-import WelcomeSection from "./components/WelcomeSection";
+import { LoginSection } from "./components/loginSection/LoginSection";
+import WelcomeSection from "./components/welcomeSection/WelcomeSection";
 import "./HomePage.css";
 
 function HomePage() {
@@ -11,6 +12,7 @@ function HomePage() {
         </h1>
       </div>
       <WelcomeSection></WelcomeSection>
+      <LoginSection></LoginSection>
     </>
   );
 }
