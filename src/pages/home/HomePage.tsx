@@ -1,5 +1,6 @@
 import React from "react";
-import WelcomeSection from "./components/WelcomeSection";
+import { LoginSection } from "./components/loginSection/LoginSection";
+import WelcomeSection from "./components/welcomeSection/WelcomeSection";
 import "./HomePage.css";
 import Accordion from "../../components/accordion/Accordion"
 
@@ -12,6 +13,7 @@ function HomePage() {
         </h1>
       </div>
       <WelcomeSection></WelcomeSection>
+      <LoginSection></LoginSection>
       <Accordion></Accordion>
     </>
   );
