@@ -1,6 +1,7 @@
 import React from "react";
 import WelcomeSection from "./components/WelcomeSection";
 import "./HomePage.css";
+import Accordion from "../../components/accordion/Accordion"
 
 function HomePage() {
   return (
@@ -11,6 +12,7 @@ function HomePage() {
         </h1>
       </div>
       <WelcomeSection></WelcomeSection>
+      <Accordion></Accordion>
     </>
   );
 }
