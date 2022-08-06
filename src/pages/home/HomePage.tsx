@@ -2,6 +2,7 @@ import React from "react";
 import { LoginSection } from "./components/loginSection/LoginSection";
 import WelcomeSection from "./components/welcomeSection/WelcomeSection";
 import "./HomePage.css";
+import Accordion from "../../components/accordion/Accordion"
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
       </div>
       <WelcomeSection></WelcomeSection>
       <LoginSection></LoginSection>
+      <Accordion></Accordion>
     </>
   );
 }

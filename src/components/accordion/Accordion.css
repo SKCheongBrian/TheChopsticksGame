@@ -1,0 +1,44 @@
+.faq-style-wrapper div {
+	width: 80%;
+}
+
+.faq-style-wrapper {
+	display: flex;
+	justify-content: center;
+	width: "80%";
+	/* box-shadow: 5px 5px 10px 10px; */
+	/* background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0,rgba(0,0,0,1) 100%); */
+}
+
+.faq-row-wrapper {
+	/* box-shadow: 5px 5px 10px 5px; */
+	border: black;
+	border-width: 2px;
+}
+
+.faq-style-wrapper .faq-title {
+	font-family: "Press Start 2P";
+	margin-top: 1rem;
+	color: "#EEEEEE";
+	text-indent: 2%;
+	padding-bottom: 1rem;
+	/* text-align:end; */
+	white-space: nowrap;
+}
+
+.faq-style-wrapper .faq-body .faq-row .row-title {
+	padding-left: 10px;
+	font-family: "Press Start 2P";
+	font-size: large;
+}
+
+.faq-style-wrapper .faq-body .faq-row .row-content {
+	padding-left: 50px;
+	font-size: large;
+}
+
+.faq-style-wrapper .faq-body .faq-row .row-content .row-content-text {
+	font-family: "VT323";
+	font-size: x-large;
+	width: auto;
+}
