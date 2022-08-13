@@ -7712,6 +7712,14 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
+"react-alert@^7.0.3":
+  "integrity" "sha512-cZ2ZhxytECTxljDfBKpQmwWbfJQFzFf2Qf03L/IB5shbEXtWhDD2JjiW60rwmKT1oZoU+GEnUQw5MFM5+f0B6A=="
+  "resolved" "https://registry.npmjs.org/react-alert/-/react-alert-7.0.3.tgz"
+  "version" "7.0.3"
+  dependencies:
+    "prop-types" "^15.7.2"
+    "react-transition-group" "^4.4.1"
+
 "react-app-polyfill@^3.0.0":
   "integrity" "sha512-sZ41cxiU5llIB003yxxQBYrARBqe0repqPTTYBTmMqTz9szeBbE37BehCE891NZsmdZqqP+xWKdT3eo3vOzN8w=="
   "resolved" "https://registry.npmjs.org/react-app-polyfill/-/react-app-polyfill-3.0.0.tgz"
@@ -7872,7 +7880,15 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react-transition-group@^4.4.0", "react-transition-group@^4.4.5":
+"react-tracking@^9.2.1":
+  "integrity" "sha512-9ymMV2uXXfJTjwDoKjHajfoYhFGNie592H6tChe5Xew2ODohyrNAEc7AwNtZ2JODXNqvDApRpHwaVFYndKkdvQ=="
+  "resolved" "https://registry.npmjs.org/react-tracking/-/react-tracking-9.2.1.tgz"
+  "version" "9.2.1"
+  dependencies:
+    "deepmerge" "^4.2.2"
+    "hoist-non-react-statics" "^3.3.2"
+
+"react-transition-group@^4.4.0", "react-transition-group@^4.4.1", "react-transition-group@^4.4.5":
   "integrity" "sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g=="
   "resolved" "https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.5.tgz"
   "version" "4.4.5"
