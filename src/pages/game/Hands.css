@@ -1,0 +1,36 @@
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.flipped {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(1) rotate(180deg);
+}
+
+.hands {
+  padding: 100px;
+  display: flex;
+  margin: auto;
+}
+
+.handBox {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.splitButton {
+	border-radius: 50%;
+	display: flex;
+  margin: auto;
+	/* justify-content: center;
+	align-items: center; */
+}
+
+.splitChoices {
+	display: flex;
+  margin: auto;
+  justify-content:center; 
+}
+
