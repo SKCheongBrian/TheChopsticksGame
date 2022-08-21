@@ -9,7 +9,7 @@ import {
 import HomePage from "../pages/home/HomePage";
 import LoginPage from "../pages/login/Login";
 import SignupPage from "../pages/signup/Signup";
-import GamePage from "../pages/game/Game";
+import GamePage from "../pages/game/GamePage";
 import CreateOrJoinPage from "../pages/createOrJoin/CreateOrJoin";
 
 export default function PageRoute() {
@@ -19,7 +19,6 @@ export default function PageRoute() {
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignupPage />} />
       <Route path="/game" element={<GamePage />} />
-      <Route path="/createOrJoin" element={<CreateOrJoinPage />} />
 
       <Route
         path="*"

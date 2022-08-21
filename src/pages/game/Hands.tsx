@@ -12,8 +12,9 @@ import FourLeft from "../../assets/images/4L.PNG";
 import FourRight from "../../assets/images/4R.PNG";
 import Grid from "@material-ui/core/Grid";
 import Button from "../../components/button/Button";
+import Game from "./model/Game";
 
-function Hands() {
+function Hands({game, ws}: {game: Game, ws: WebSocket}) {
   const [oppL, setOppL] = useState(1);
   const [oppR, setOppR] = useState(1);
   const [selfL, setSelfL] = useState(1);

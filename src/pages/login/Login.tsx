@@ -1,11 +1,14 @@
 import React from "react";
 import "./Login.css";
 
-function LoginPage() {
+function LoginPage(this: any) {
+  const handleChange = (event: any) => {};
+  const handleSubmit = (event: any) => {};
+
   return (
-    <>
-	<h1>login page</h1>
-    </>
+    <div className="login-wrapper">
+      <h1>login</h1>
+    </div>
   );
 }
 

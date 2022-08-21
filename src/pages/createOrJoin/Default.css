@@ -1,0 +1,36 @@
+h2 {
+	font-family: "Press Start 2P";
+}
+
+.button-area {
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameButton {
+	position: flex;
+    margin-top: 0px;
+    margin-bottom: 50px;
+	text-align: center;
+	/* flex-direction: column; */
+	/* justify-content: space-evenly; */
+	background-color: #393E46;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	font-family: "VT323";
+	font-size: large;
+	box-shadow: 2px 2px 10px 2px black;
+	transition: box-shadow 0.2s ease-in;
+} */
+
+.gameButton:hover {
+	background-color: #EEEEEE;
+	background-color: #515967;
+	box-shadow: 0px 0px 10px 2px #dadada;
+}
